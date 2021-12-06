@@ -103,13 +103,13 @@ storm_fn <- 'BPC_2015_Stormwater_Data.txt'
 
 ## Load IC Data
 
-Note that the total IC coverage listed includes IC withing the
+Note that the total IC coverage listed includes IC within the
 designated radius of the sample point. Since each sample point is on a
 shoreline, a portion of that circle lies in the ocean, and is not on
 land. Thus the percent imperviousness calculated here (based on the
 TOTAL area of those circles, not the LAND area within those circles)
 underestimates local IC, but provides a better estimate of the potential
-impact orf overall urbanization on local conditions.
+impact for overall urbanization on local conditions.
 
 ``` r
 ic_data <- read.delim(geogr_fn, sep = ',') %>%
