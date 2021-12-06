@@ -23,7 +23,7 @@ Curtis C. Bohlen, Casco Bay Estuary Partnership
 
 # Introduction
 
-in 2015, the BPC collected stormwater samples from streams and storm
+In 2015, the BPC collected stormwater samples from streams and storm
 drain outfalls near where sediment samples were collected in 2014. These
 samples were analyzed both for pyrethroids and for a comprehensive list
 of 101 pesticides (see ‘Anylate\_Lists\_2015.xlsx’), including
@@ -72,7 +72,7 @@ storm_data <- read.delim(fpath, skip = 1)
 
 Because the two laboratories used different methods for reporting their
 results, some of these are below detection limits, an some are below
-reporting limits. This serves only as a GENRAL indication of the number
+reporting limits. This serves only as a GENERAL indication of the number
 of detections for each pesticide.
 
 ``` r
@@ -106,7 +106,7 @@ knitr:: kable(Pesticides, col.names = c('Pesticide'), caption = 'Pesticides Dete
 Pesticides Detected in Stormwater Entering Casco Bay, 2015 BPC
 Stormwater Study
 
-### Maximum Observed Value and Approcximate Number of Detections
+### Maximum Observed Value and Approximate Number of Detections
 
 Because of the way the two laboratories reported results, these are not
 strictly consistent, but they provide a rough idea of relative abundance
@@ -190,5 +190,5 @@ left_join(sum_data, ALB_data, by= 'Pesticide') %>%
 
 In both cases, since these are storm event samples, it is hard to know
 whether these elevated concentrations are persistent or not. The
-observed values are all below the realted ACUTE benchmarks (by about a
+observed values are all below the related ACUTE benchmarks (by about a
 factor of 3).
